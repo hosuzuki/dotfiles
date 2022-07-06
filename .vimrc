@@ -71,7 +71,7 @@ endfunction
 
 " Monokai カラースキーム
 syntax on
-colorscheme monokai
+colorscheme default
 hi Visual ctermbg=227
 
 " 行番号を表示する
