@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =5
+let g:netrw_dirhist_5='/home/hos/42/minishell2/includes'
+let g:netrw_dirhist_4='/home/hos/42/sample/minishell/test'
+let g:netrw_dirhist_3='/home/hos/.vim/plugin'
+let g:netrw_dirhist_2='/home/hos/42/minishell/srcs/executor'
+let g:netrw_dirhist_1='/home/hos/42/minishell/srcs/minishell'
+let g:netrw_dirhist_0='/home/hos/42/minishell/srcs/executor'
+let g:netrw_dirhist_9='/home/hos/42/minishell/srcs/utils'
+let g:netrw_dirhist_8='/home/hos/42/minishell/libft/includes'
+let g:netrw_dirhist_7='/home/hos/42/minishell/scripts'
+let g:netrw_dirhist_6='/home/hos/42/minishell/libft'
