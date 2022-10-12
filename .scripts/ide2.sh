@@ -2,7 +2,7 @@
 
 #set tmux panes for ide
 
-cd ~/42/cpp/02
+cd ~/42/minirt
 tmux split-window -h
 tmux split-window -h
 tmux select-pane -t 1

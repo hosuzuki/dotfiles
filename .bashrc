@@ -1,3 +1,6 @@
+#2022/09/13/ starship
+eval "$(starship init bash)"
+
 #2022/08/30 lazygit
 alias lg='lazygit'
 alias gits='git status'
@@ -5,9 +8,23 @@ alias gitc='git commit -m'
 alias gitd='git diff'
 alias gitp='git push origin'
 
-#2022/08/17 for tmux's ide.sh
-alias ide='~/.scripts/ide.sh'
+#lg()
+#{
+#	export LAZYGIT_NEW_DIR_FILE=~/.lazygit/newdir
 
+#	lazygit "$@"
+
+#	if [ -f $LAZYGIT_NEW_DIR_FILE ]; then
+#		cd "$(cat $LAZYGIT_NEW_DIR_FILE)"
+#		rm -f $LAZYGIT_NEW_DIR_FILE > /dev/null
+#	fi
+#}
+
+
+#202/208/17 for tmux's ide.sh
+alias ide='~/.scripts/ide.sh'
+alias ide2='~/.scripts/ide2.sh'
+alias other='~/.scripts/other.sh'
 alias sam='~/.scripts/sample.sh'
 
 #2022/07/17
