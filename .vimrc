@@ -2,6 +2,8 @@
 " .vimrc
 " ================================================================================
 
+"2022/10/20
+inoremap <silent> jj <ESC>
 
 "2022/07/16
 source $VIMRUNTIME/mswin.vim
@@ -23,14 +25,17 @@ set showcmd
 if has("mac")
   "echo 'mac'
   set clipboard&
-  set clipboard^=unnamed
+"  set clipboard^=unnamed
+  set clipboard+=unnamed
 elseif has("unix")
   "echo 'unix'
-  set clipboard=unnamedplus
+  set clipboard+=unnamed
+"  set clipboard=unnamedplus
 else
   "echo 'win'
   set clipboard&
-  set clipboard^=unnamed
+  set clipboard+=unnamed
+ " set clipboard^=unnamed
 endif
 " クリップボード連携を有効にした時に BackSpace (Delete) が効かなくなるので設定する
 set backspace=indent,eol,start
