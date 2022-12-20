@@ -26,6 +26,7 @@ alias ide='~/.scripts/ide.sh'
 alias ide2='~/.scripts/ide2.sh'
 alias other='~/.scripts/other.sh'
 alias sam='~/.scripts/sample.sh'
+alias idevim='~/.scripts/idevim.sh'
 
 #2022/07/17
 alias pbcopy='xsel --clipboard --input'
